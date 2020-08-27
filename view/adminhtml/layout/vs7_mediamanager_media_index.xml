@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page layout="admin-1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <link src="Magento_Backend::js/bootstrap/editor.js" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="VS7\MediaManager\Block\Adminhtml\MediaManager" name="vs7_mediamanager" template="VS7_MediaManager::mediamanager.phtml" />
+        </referenceContainer>
+    </body>
+</page>

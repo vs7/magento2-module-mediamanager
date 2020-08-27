@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+		<add id="VS7_MediaManager::mediamanager" title="Media Manager" module="VS7_MediaManager" sortOrder="999" parent="Magento_Backend::content_elements" action="vs7_mediamanager/media/index" resource="VS7_MediaManager::mediamanager"/>
+    </menu>
+</config>
